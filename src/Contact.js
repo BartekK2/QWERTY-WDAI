@@ -48,7 +48,7 @@ function Contact() {
   return (
     <main>
     <form className="form" onSubmit={handleSubmit}>
-      <h2>Kontakt</h2>
+      <h2>Formularz kontaktowy</h2>
 
       <label>
         E-Mail:

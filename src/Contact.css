@@ -3,13 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
+    max-width: 500px;
     gap:20px;
-
+    background-color: #ffffff4e;
+    padding: 30px;
+    border: solid #303030 3px;
+    border-radius: 20px;
+    box-shadow: 8px 6   px 0 rgba(0,0,0,0.2);
 }
 
 .error{
-    color: var(--orange);
+    color: var(--dark-orange);
+    font-weight: 700;
 }
 
 main{
@@ -24,4 +30,22 @@ label{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+input,
+textarea,
+select {
+    padding: 10px 14px;
+    margin-top: 5px;
+    border: 2px solid #c6c6c6;
+    border-radius: 8px;
+    transition: border-color 0.2s, box-shadow .3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--green);
+    box-shadow: 0 0 5px var(--dark-green);
+    outline: none;
 }
