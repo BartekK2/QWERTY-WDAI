@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/QWERTY-WDAI/static/css/main.0f4d5565.css",
-    "main.js": "/QWERTY-WDAI/static/js/main.74f4d290.js",
+    "main.js": "/QWERTY-WDAI/static/js/main.8e5b9048.js",
     "static/media/kot5.jpg": "/QWERTY-WDAI/static/media/kot5.10ace3a854fb8f5f6fd3.jpg",
     "static/media/piesek.mp4": "/QWERTY-WDAI/static/media/piesek.ecaff1c81c127d5709db.mp4",
     "static/media/kot4.jpg": "/QWERTY-WDAI/static/media/kot4.76d206c6ec58c6366049.jpg",
@@ -15,10 +15,10 @@
     "static/media/pioro.svg": "/QWERTY-WDAI/static/media/pioro.bc392de009235005635fb101393e7795.svg",
     "index.html": "/QWERTY-WDAI/index.html",
     "main.0f4d5565.css.map": "/QWERTY-WDAI/static/css/main.0f4d5565.css.map",
-    "main.74f4d290.js.map": "/QWERTY-WDAI/static/js/main.74f4d290.js.map"
+    "main.8e5b9048.js.map": "/QWERTY-WDAI/static/js/main.8e5b9048.js.map"
   },
   "entrypoints": [
     "static/css/main.0f4d5565.css",
-    "static/js/main.74f4d290.js"
+    "static/js/main.8e5b9048.js"
   ]
 }
