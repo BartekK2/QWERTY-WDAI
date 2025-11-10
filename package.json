@@ -1,7 +1,7 @@
 {
   "name": "projekt_wdai",
   "version": "0.1.0",
-  "homepage": "https://bartekk2.github.io/QWERTY",
+  "homepage": "https://bartekk2.github.io/QWERTY-WDAI",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
