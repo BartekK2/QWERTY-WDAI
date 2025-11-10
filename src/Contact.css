@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    gap:20px;
+
+}
+
+.error{
+    color: var(--orange);
+}
+
+main{
+    padding: 50px 25% 0 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

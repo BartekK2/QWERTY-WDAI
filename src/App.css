@@ -1,0 +1,49 @@
+:root {
+  --green: #427A76;
+  --dark-green: #174143;
+  --off-white: #FFFFF4;
+  --orange: #F9B487;
+  --dark-orange: #f89e63;
+}
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body{
+  margin: 0;
+  background-color: #FCF9F0;
+  background-image:  linear-gradient(#F2EFE6 1px, transparent 1px), linear-gradient(to right, #F2EFE6 1px, #FCF9F0 1px);
+  background-size: 20px 20px;
+  font-family: 'Montserrat';
+  min-height: 100vh;
+}
+
+#m{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+
+/* D8A128 -> F9B487
+68A240 -> 427A76 
+FFD632 -> F9B487*/
+
+button:focus,
+button:active {
+  outline: none;
+}

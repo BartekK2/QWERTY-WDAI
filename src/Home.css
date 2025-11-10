@@ -1,0 +1,24 @@
+main{
+    flex:1;
+    padding: 50px 25% 0 25%;
+    flex-direction: column;
+}
+
+.tutorial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.tutorial > .description {
+    width: 50%;
+    height: 100%;
+}
+.tutorial > img{
+    width: 160px;
+    transform: skew(-10deg,5deg);
+    filter: drop-shadow(12px 12px 5px #303030);
+    
+}

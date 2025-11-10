@@ -1,0 +1,19 @@
+.breakpoint{
+    display: flex;
+    align-items: center;
+}
+
+.leftbr, .rightbr{
+    flex: 1;
+    height: 3px;
+    margin: 20px 25px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 3px 2px 0 rgba(0,0,0,0.2);
+}
+
+.middlebr > p{
+    margin: 0;
+    padding: 0 2px;
+    text-align: center;
+}

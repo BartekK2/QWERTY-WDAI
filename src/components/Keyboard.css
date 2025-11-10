@@ -1,0 +1,101 @@
+span {
+  display: block;
+  margin-top: -5px;
+}
+
+.keyboard {
+  width: 780px;
+  border-radius: 10px;
+  background: #2a2929;
+  transform: skew(10deg,-5deg);
+    box-shadow: -10px 10px 4px rgba(0,0,0,0.2);
+  filter: drop-shadow(-10px 10px 4px #ababab);
+  margin-bottom: 50px;
+  scale: 0.8; /* ten fragment cssa pisałem omyłkowo na zoomie w przeglądarce i stwierdziłem że zrobie taki hot-fix zamiast zmieniać wszystko krok po kroku */
+}
+
+.keyboard .o{
+  transform: none;
+  width: 50px;
+  float: left;
+  line-height: 48px;
+  text-align: center;
+  font-size: inherit;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.keyboard .o .f{
+  font-size: initial;
+  padding: 0;
+}
+
+.row {
+  margin-top: 2px;
+  overflow: hidden;
+}
+
+.key {
+  width: 50px;
+  height: 50px;
+  float: left;
+  background-color: var(--off-white);
+  color: #000000;
+  line-height: 48px;
+  text-align: center;
+  margin-left: 2px;
+  border-radius: 4px;
+}
+
+.key.active{
+    background-color: var(--green) ;
+}
+/* trzeba by polaczyc game z keyboard potem
+.key.active-valid{
+    background-color: var(--green) ;
+}
+.key.active-invalid{
+    background-color: #852a2a ;
+} */
+
+
+.keyboard .delete {
+  width: 100px;
+}
+
+.keyboard .longer-key {
+  width: 75px;
+}
+
+.keyboard .enter {
+  width: 112px;
+}
+
+.keyboard .caps {
+  width: 90px;
+}
+
+.keyboard .shift-left{
+  width: 100px;
+}
+
+.keyboard .space {
+  width: 300px;
+}
+
+.keyboard .bottom {
+  width: 70px;
+}
+
+.keyboard .qwerty .f{
+    background-color: var(--orange);
+    color: white;
+}
+.keyboard .qwerty{
+    background-color: var(--dark-orange);
+}
+
+.keyboard .key-break{
+  visibility: hidden;
+}
+
